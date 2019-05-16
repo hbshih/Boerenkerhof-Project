@@ -15,13 +15,13 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 22
-    width: 1440
-    height: 878
+    y: 44
+    width: 1280
+    height: 700
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,9 +43,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
-    height: 878
-  m_MinSize: {x: 950, y: 544}
+    width: 1280
+    height: 700
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -64,7 +64,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
+    width: 1280
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -85,8 +85,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 858
-    width: 1440
+    y: 680
+    width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -109,12 +109,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1440
-    height: 828
+    width: 1280
+    height: 650
   m_MinSize: {x: 538, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 126
+  controlID: 32
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,12 +134,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1033
-    height: 828
+    width: 918
+    height: 650
   m_MinSize: {x: 436, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 1
-  controlID: 32
+  controlID: 33
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,8 +157,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1033
-    height: 510
+    width: 918
+    height: 378
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 15}
@@ -186,13 +186,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 510
-    width: 1033
-    height: 318
+    y: 378
+    width: 918
+    height: 272
   m_MinSize: {x: 436, y: 272}
   m_MaxSize: {x: 14006, y: 10022}
   vertical: 0
-  controlID: 33
+  controlID: 119
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,8 +210,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 419
-    height: 318
+    width: 372
+    height: 272
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 17}
@@ -234,10 +234,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 419
+    x: 372
     y: 0
-    width: 614
-    height: 318
+    width: 546
+    height: 272
   m_MinSize: {x: 234, y: 272}
   m_MaxSize: {x: 10004, y: 10022}
   m_ActualView: {fileID: 18}
@@ -261,10 +261,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1033
+    x: 918
     y: 0
-    width: 407
-    height: 828
+    width: 362
+    height: 650
   m_MinSize: {x: 102, y: 122}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 12}
@@ -294,10 +294,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1033
-    y: 52
-    width: 405
-    height: 809
+    x: 918
+    y: 75
+    width: 360
+    height: 631
   m_ViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
   notificationClearTime: -1
@@ -531,29 +531,29 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: /usr/local/bin/git
-      gitLfsPath: /Users/ben/Library/Application Support/GitHubUnity/git-lfs/git-lfs
+      gitPath: 
+      gitLfsPath: 
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
-    hasRemote: 0
+    hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2019-05-16T09:33:14.341+02:00
+      updatedTimeString: 2019-05-16T09:48:54.999+02:00
       cacheType: 1
     metricsEnabled: 1
-    newRepositoryRemoteUrl: 
+    newRepositoryRemoteUrl: https://github.com/hbshih/Boerenkerhof-Project.git
     repositoryRemoteName: origin
-    repositoryRemoteUrl: 
+    repositoryRemoteUrl: https://github.com/hbshih/Boerenkerhof-Project.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: Ben Shih
-      gitEmail: hbshih@gmail.com
-      newGitName: Ben Shih
-      newGitEmail: hbshih@gmail.com
+      gitName: Annkatrin Jung
+      gitEmail: annkatrin.jung@student.uni-tuebingen.de
+      newGitName: Annkatrin Jung
+      newGitEmail: annkatrin.jung@student.uni-tuebingen.de
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2019-05-16T09:34:05.494+02:00
+        updatedTimeString: 2019-05-16T09:48:54.409+02:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -601,30 +601,30 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 0
-  currentRemoteName: 
+  hasRemote: 1
+  currentRemoteName: origin
   currentBranch: master
-  currentRemoteUrl: No remote configured
+  currentRemoteUrl: https://github.com/hbshih/Boerenkerhof-Project.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
-  isTrackingRemoteBranch: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: No remote configured
+    m_Text: https://github.com/hbshih/Boerenkerhof-Project.git
     m_Image: {fileID: 0}
-    m_Tooltip: Add a remote in the Settings tab
+    m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-05-16T09:33:14.341+02:00
+    updatedTimeString: 2019-05-16T09:48:54.999+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-05-16T09:35:28.651+02:00
+    updatedTimeString: 2019-05-16T09:48:57.500+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    updatedTimeString: 2019-05-16T09:58:32.963+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -644,10 +644,10 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
+  appManagerProgressValue: 0.8
+  appManagerProgressMessage: Extracting zip...
   connections: []
-  primaryConnectionUsername: hbshih
+  primaryConnectionUsername: 
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -713,9 +713,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 52
-    width: 990
-    height: 537
+    y: 75
+    width: 918
+    height: 359
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -728,10 +728,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -495
-    m_HBaseRangeMax: 495
-    m_VBaseRangeMin: -260
-    m_VBaseRangeMax: 260
+    m_HBaseRangeMin: -229.5
+    m_HBaseRangeMax: 229.5
+    m_VBaseRangeMin: -85.5
+    m_VBaseRangeMax: 85.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -749,25 +749,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 990
-      height: 520
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 495, y: 260}
+      width: 918
+      height: 342
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 459, y: 171}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -495
-      y: -260
-      width: 990
-      height: 520
+      x: -229.5
+      y: -85.5
+      width: 459
+      height: 171
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1980, y: 1074}
+  m_LastWindowPixelSize: {x: 1836, y: 718}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000100000100000100
@@ -794,9 +794,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 52
-    width: 1033
-    height: 491
+    y: 75
+    width: 918
+    height: 359
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 4638391f50a2d471cbb245fa98fe5b75
@@ -808,9 +808,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.313139, y: 15.306234, z: -36.884007}
+    m_Target: {x: -5.6413116, y: 5.0036097, z: -41.32611}
     speed: 2
-    m_Value: {x: 10.313139, y: 15.306234, z: -36.884007}
+    m_Value: {x: -5.6413116, y: 5.0036097, z: -41.32611}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -843,9 +843,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 36.269165
+    m_Target: 21.885597
     speed: 2
-    m_Value: 36.269165
+    m_Value: 21.885597
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -863,7 +863,7 @@ MonoBehaviour:
     m_DynamicClip: 1
     m_OcclusionCulling: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.00797043, y: 0.9804402, z: -0.040611107, w: 0.19242044}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -918,16 +918,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 562
-    width: 419
-    height: 299
+    y: 453
+    width: 372
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 28faffff4cfbffff
+      m_ExpandedIDs: 94efffff4a45000060450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -972,10 +972,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 419
-    y: 562
-    width: 612
-    height: 299
+    x: 372
+    y: 453
+    width: 544
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -989,20 +989,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Boerenkerhof
+    - Assets/Boerenkerhof/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Boerenkerhof
+  - Assets/Boerenkerhof/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/ben/Get Started
+  m_LastProjectPath: /Users/annkatrinjung/Documents/Uni/Master/Quarter 4/Designing
+    Interactive Experiences/Boerenkerhof-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42360000
-    m_LastClickedID: 13890
-    m_ExpandedIDs: 00000000a82d00009230000054310000a23100006434000000ca9a3b
+    scrollPos: {x: 0, y: 71}
+    m_SelectedIDs: 5c410000
+    m_LastClickedID: 16732
+    m_ExpandedIDs: 00000000983e000040410000004200004a42000068440000ec44000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1030,7 +1031,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a82d00009230000054310000a231000064340000
+    m_ExpandedIDs: 00000000983e000040410000004200004a420000ec440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
