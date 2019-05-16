@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{6A5E97E4-D1B3-F2D9-138E-A3E1096D0F2F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARController.cs">
+    <Files>
+      <File FileName="Assets/ARController.cs" Line="61" Column="9" />
+      <File FileName="../Bboerenkerhof_Project/Assets/Boerenkerhof/Scripts/ARController.cs" Line="72" Column="1" />
+      <File FileName="Assets/GridVisualiser.cs" Line="4" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
